@@ -1,24 +1,19 @@
 ﻿using System;
 
-/// <summary>
-/// Summary description for Class1
-/// </summary>
 
 namespace HelloWorld
 {
 
 	public class Program
 	{
-		public Program()
-		{
-			//
-			// TODO: Add constructor logic here
-			//
-		}
-
         static void Main(string[] args)
         {
 			Console.WriteLine("Hello, World !");
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine($"Current number is: {i}");
+            }
         }
     }
 }
