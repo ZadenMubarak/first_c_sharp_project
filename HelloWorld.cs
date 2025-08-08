@@ -1,6 +1,5 @@
 ﻿using System;
 
-
 namespace HelloWorld
 {
 
@@ -8,12 +7,13 @@ namespace HelloWorld
 	{
         static void Main(string[] args)
         {
-			Console.WriteLine("Hello, World !");
-
-            for (int i = 0; i < 10; i++)
+         
+            for (int i = 0; i < 100; i++)
             {
                 Console.WriteLine($"Current number is: {i}");
             }
+
+            Console.WriteLine("Done");
         }
     }
 }
